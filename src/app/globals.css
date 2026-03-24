@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-spending: #ef4444;
+  --color-spending-light: #fef2f2;
+  --color-growth: #22c55e;
+  --color-growth-light: #f0fdf4;
+  --color-accent: #3b82f6;
+  --color-accent-light: #eff6ff;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f8fafc;
+  --color-border: #e2e8f0;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #64748b;
+  --color-text-muted: #94a3b8;
+  --font-display: "Inter", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-display);
+  color: var(--color-text-primary);
+  background-color: var(--color-surface-alt);
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
