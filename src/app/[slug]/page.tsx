@@ -9,7 +9,7 @@ import StructuredData, {
   getFAQSchema,
 } from "@/components/StructuredData";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://truecostcalculator.com";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://howmuchitscostingyou.com";
 
 interface PageProps {
   params: Promise<{ slug: string }>;

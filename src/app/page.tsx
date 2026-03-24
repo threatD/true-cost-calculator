@@ -4,7 +4,7 @@ import RelatedCalculators from "@/components/RelatedCalculators";
 import StructuredData, { getWebApplicationSchema } from "@/components/StructuredData";
 import { createId } from "@/utils/calculator";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://truecostcalculator.com";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://howmuchitscostingyou.com";
 
 export const metadata: Metadata = {
   title: "True Cost Calculator — What Are Your Habits Really Costing You?",

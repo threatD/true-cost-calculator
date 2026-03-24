@@ -8,7 +8,7 @@ import StructuredData, {
 } from "@/components/StructuredData";
 import { createId } from "@/utils/calculator";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://truecostcalculator.com";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://howmuchitscostingyou.com";
 const PAGE_URL = `${BASE_URL}/lifetime-cost-calculator`;
 
 export const metadata: Metadata = {

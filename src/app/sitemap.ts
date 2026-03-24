@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { getAllSlugs } from "@/data/habits";
 
-const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://truecostcalculator.com";
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "https://howmuchitscostingyou.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const habitPages = getAllSlugs().map((slug) => ({
